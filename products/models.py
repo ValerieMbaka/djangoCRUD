@@ -9,3 +9,5 @@ class Product(models.Model):
         prod_description = models.TextField()
         prod_image = models.ImageField(upload_to='products/')
 
+        def __str__(self):
+                return self.prod_name
