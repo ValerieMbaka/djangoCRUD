@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+        <div class="container">
+                <div class="col-md-6">
+
+                        <h2>Update Product</h2>
+
+                       <form action="/insert_data/" method="post" enctype="multipart/form-data">
+
+                               {% csrf_token %}
+
+                               <input name="prod_name"  type="text" placeholder="Product Name"  class="form-control" value="{{ product.prod_name }}" required>
+                               <br>
+
+                               <input name="prod_price"  type="number" placeholder="Price"  class="form-control" value="{{ product.prod_price }}" required>
+                               <br>
+
+                               <input name="prod_category" type="text" placeholder="Category" class="form-control" value="{{ product.prod_category }}" required>
+                               <br>
+
+                               <input name="prod_quantity" type="number" placeholder="Quantity"  class="form-control" value="{{ product.prod_quantity }}" required>
+                               <br>
+
+                               <img src="{{ product.prod_image.url }}" alt="" width="50px">
+                               <br>
+                               <br>
+
+                               <textarea name="prod_description" placeholder="Description"  class="form-control" value="{{ product.prod_description }}" required></textarea>
+                               <br>
+
+                               <input type="submit" value="Save" class="btn btn-success">
+
+                        </form>
+                </div>
+        </div>
+
+{% endblock %}

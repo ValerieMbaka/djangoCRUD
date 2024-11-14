@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9e533a6-334d-4a7d-827e-311660b35eae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my_shop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/products/aurora.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/products/aurora_oUbVSly.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/products/code.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/templates/view_products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c9e533a6-334d-4a7d-827e-311660b35eae" name="Changes" comment="added view_products">
+      <change afterPath="$PROJECT_DIR$/products/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/templates/update_product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/templates/insert.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/insert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/view_products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/view_products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
     </list>
@@ -37,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ValerieMbaka"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ValerieMbaka/djangoCRUD.git",
+    "accountId": "ab60bb61-c83f-4aeb-a502-a42505a6fc14"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -105,10 +108,24 @@
       <option name="presentableId" value="Default" />
       <updated>1731495414066</updated>
       <workItem from="1731495415685" duration="8722000" />
+      <workItem from="1731582561939" duration="4887000" />
     </task>
+    <task id="LOCAL-00001" summary="added view_products">
+      <option name="closed" value="true" />
+      <created>1731582734523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731582734523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added view_products" />
+    <option name="LAST_COMMIT_MESSAGE" value="added view_products" />
   </component>
 </project>
