@@ -7,7 +7,7 @@
 
                         <h2>Update Product</h2>
 
-                       <form action="/insert_data/" method="post" enctype="multipart/form-data">
+                       <form action="/update/{{ product.id }}/" method="post" enctype="multipart/form-data">
 
                                {% csrf_token %}
 
@@ -26,8 +26,11 @@
                                <img src="{{ product.prod_image.url }}" alt="" width="50px">
                                <br>
                                <br>
+                               
+                               <input name="prod_image" type="file"  class="form-control" required>
+                               <br>
 
-                               <textarea name="prod_description" placeholder="Description"  class="form-control" value="{{ product.prod_description }}" required></textarea>
+                               <textarea name="prod_description" placeholder="Description"  class="form-control" required>{{ product.prod_description }}</textarea>
                                <br>
 
                                <input type="submit" value="Save" class="btn btn-success">

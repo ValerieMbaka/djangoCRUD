@@ -45,13 +45,32 @@ def view_product(request, id):
 # Function to update product details
 def update_product(request, id):
         product = Product.objects.get(id=id)
-        # if request.method == "POST":
-        #         product.prod_name = request.POST['prod_name']
-        #         product.prod_price = request.POST['prod_price']
-        #         product.prod_category = request.POST['prod_category']
-        #         product.prod_quantity = request.POST['prod_quantity']
-        #         product.prod_description = request.POST['prod_description']
-        #         product.prod_image = request.FILES['prod_image']
-        #         product.save()
-        #         return redirect('products:view_products')
+        # Getting the new product values
+        if request.method == "POST":
+                prod_name = request.POST['prod_name']
+                prod_price = request.POST['prod_price']
+                prod_category = request.POST['prod_category']
+                prod_quantity = request.POST['prod_quantity']
+                prod_description = request.POST['prod_description']
+                prod_image = request.FILES['prod_image']
+
+                # Equating the new values to the existing product values
+                product.prod_name = prod_name
+                product.prod_price = prod_price
+                product.prod_category = prod_category
+                product.prod_quantity = prod_quantity
+                product.prod_description = prod_description
+                product.prod_image = prod_image
+
+                # Save the new values to the database
+                product.save()
+
+                # Redirect to the view_products page
+                return redirect('products:view_products')
+
         return render(request, 'update_product.html', {'product': product})
+
+def delete_product(request, id):
+        product = Product.objects.get(id=id)
+        product.delete()
+        return redirect('products:view_products')
