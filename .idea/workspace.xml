@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9e533a6-334d-4a7d-827e-311660b35eae" name="Changes" comment="added delete product">
+    <list default="true" id="c9e533a6-334d-4a7d-827e-311660b35eae" name="Changes" comment="updated admin.py">
+      <change beforePath="$PROJECT_DIR$/.idea/my_shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ValerieMbaka"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ValerieMbaka&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ValerieMbaka/djangoCRUD.git",
-    "accountId": "ab60bb61-c83f-4aeb-a502-a42505a6fc14"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ValerieMbaka/djangoCRUD.git&quot;,
+    &quot;accountId&quot;: &quot;ab60bb61-c83f-4aeb-a502-a42505a6fc14&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -50,13 +52,16 @@
     "JavaScript Debug.insert.html.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/user/OneDrive/Desktop/Web Development/Django/my_shop/my_shop/settings.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,8 +103,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
-        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -113,6 +118,10 @@
       <updated>1731495414066</updated>
       <workItem from="1731495415685" duration="8722000" />
       <workItem from="1731582561939" duration="9044000" />
+      <workItem from="1731591842005" duration="935000" />
+      <workItem from="1731668758318" duration="379000" />
+      <workItem from="1731669181473" duration="128000" />
+      <workItem from="1731670055518" duration="2269000" />
     </task>
     <task id="LOCAL-00001" summary="added view_products">
       <option name="closed" value="true" />
@@ -138,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731591342691</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated admin.py">
+      <option name="closed" value="true" />
+      <created>1731592787086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731592787086</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added view_products" />
     <MESSAGE value="added delete product" />
-    <option name="LAST_COMMIT_MESSAGE" value="added delete product" />
+    <MESSAGE value="updated admin.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated admin.py" />
   </component>
 </project>
