@@ -1,9 +1,19 @@
 from django.shortcuts import render, redirect
+from rest_framework import viewsets
 
 # import models
-from products.models import Product
+from . models import Product
+
+# import serializers
+from . serializers import ProductSerializer
 
 # Create your views here.
+class ProductView(viewsets.ModelViewSet):
+        queryset = Product.objects.all()
+        serializer_class = ProductSerializer
+
+
+
 def home(request):
         return render(request, 'home.html')
 

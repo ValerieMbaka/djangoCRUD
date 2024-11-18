@@ -122,6 +122,8 @@
       <workItem from="1731751310722" duration="77000" />
       <workItem from="1731760683903" duration="342000" />
       <workItem from="1731761127945" duration="208000" />
+      <workItem from="1731761968024" duration="1855000" />
+      <workItem from="1731766932798" duration="274000" />
     </task>
     <task id="LOCAL-00001" summary="added view_products">
       <option name="closed" value="true" />
@@ -163,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731672545446</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="connected to mysql">
+      <option name="closed" value="true" />
+      <created>1731762506123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731762506123</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
