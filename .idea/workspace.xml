@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9e533a6-334d-4a7d-827e-311660b35eae" name="Changes" comment="connected to mysql">
+    <list default="true" id="c9e533a6-334d-4a7d-827e-311660b35eae" name="Changes" comment="added API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +124,11 @@
       <workItem from="1731761127945" duration="208000" />
       <workItem from="1731761968024" duration="1855000" />
       <workItem from="1731766932798" duration="274000" />
+      <workItem from="1731932259179" duration="4182000" />
+      <workItem from="1731950887288" duration="2164000" />
+      <workItem from="1731956434653" duration="110000" />
+      <workItem from="1731998350572" duration="1232000" />
+      <workItem from="1732001565262" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="added view_products">
       <option name="closed" value="true" />
@@ -173,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731762506123</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added API">
+      <option name="closed" value="true" />
+      <created>1731936697611</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731936697611</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +197,7 @@
     <MESSAGE value="added delete product" />
     <MESSAGE value="updated admin.py" />
     <MESSAGE value="connected to mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="connected to mysql" />
+    <MESSAGE value="added API" />
+    <option name="LAST_COMMIT_MESSAGE" value="added API" />
   </component>
 </project>

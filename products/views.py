@@ -84,3 +84,11 @@ def delete_product(request, id):
         product = Product.objects.get(id=id)
         product.delete()
         return redirect('products:view_products')
+
+def search(request):
+        query = request.GET.get('search')
+        results = []
+        if query:
+                results = Product.objects.filter(prod_name__icontains=query)
+
+        return render(request, 'results.html', {'results': results, 'query': query})

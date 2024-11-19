@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+        <h1>Search results for: {{ query }}</h1>
+        
+        {% if results %}
+                
+                {% for product in results %}
+                        <img src="{{ product.prod_image.url }}" alt="">
+                        <p>{{ product.prod_name }}</p>
+                {% endfor %}
+                
+        {% else %}
+                <p>No product found</p>
+        {% endif %}
+        
+{% endblock %}
